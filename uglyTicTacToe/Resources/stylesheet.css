@@ -1,0 +1,25 @@
+﻿h1 {
+    background-color:aqua;
+    color:rebeccapurple;
+    transform:rotate(30deg) translateY(400px) translateX(200px);
+}
+
+.result{
+    font-family:Impact;
+    font-size:36px;
+}
+
+input[type='submit']:disabled {
+    font-size:50px;
+    background-color:springgreen;
+    color:yellow;
+}
+
+.NewGame,.NewGame img{
+    transition: 2s all;
+}
+
+.NewGame,.NewGame img:hover{
+    transform: rotate(720deg) translateX(500px) ;
+    transition: 2s all;
+}
